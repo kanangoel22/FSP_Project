@@ -1,0 +1,10 @@
+# Rasa Core and Action SDK
+rasa==3.6.0
+rasa-sdk==3.6.0
+
+# Utility Libraries
+requests==2.31.0
+python-dotenv==1.0.0
+
+# For asynchronous operations (often needed for web integration)
+aiohttp==3.9.1
