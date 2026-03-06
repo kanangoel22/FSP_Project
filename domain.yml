@@ -2,32 +2,35 @@ version: "3.1"
 
 intents:
   - greet
+  - motivation
+  - inspiration
+  - love
+  - funny
+  - success
   - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
 
 responses:
+
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hello! I can share motivational, inspirational, love, funny, or success quotes."
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_motivation:
+  - text: "Believe you can and you're halfway there."
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_inspiration:
+  - text: "The best way to predict the future is to create it."
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_love:
+  - text: "Love all, trust a few, do wrong to none."
+
+  utter_funny:
+  - text: "I'm not lazy, I'm just on energy-saving mode."
+
+  utter_success:
+  - text: "Success usually comes to those who are too busy to be looking for it."
 
   utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Goodbye! Come back anytime if you want more quotes."
 
 session_config:
   session_expiration_time: 60
