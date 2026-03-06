@@ -10,7 +10,7 @@ models/
 results/
 *.tar.gz
 
-# Python
+# Pythonx 
 __pycache__/
 *.py[cod]
 *$py.class
