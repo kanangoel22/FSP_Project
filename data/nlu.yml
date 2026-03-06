@@ -1,3 +1,176 @@
 version: "3.1"
 
 nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - greetings
+    - hey there
+    - hi there
+    - hello there
+    - hey buddy
+    - good evening
+    - good afternoon
+    - what's up
+    - hey how are you
+    - hello how are you
+    - hi bot
+    - hey bot
+    - hello friend
+    - nice to meet you
+    - glad to see you
+    - hey how’s it going
+    - hi how’s your day
+    - hello again
+    - hey good to see you
+    - hi there chatbot
+    - hello chatbot
+
+- intent: motivation
+  examples: |
+    - i need some motivation
+    - motivate me
+    - i am feeling down, i need motivation
+    - give me a motivational quote
+    - help me stay motivated
+    - need some push
+    - i feel discouraged
+    - i need encouragement
+    - give me some positive words
+    - i want to feel motivated
+    - tell me something motivating
+    - say something inspiring to me
+    - i need energy to keep going
+    - i feel like giving up
+    - help me stay positive
+    - boost my motivation
+    - i need a confidence boost
+    - encourage me
+    - motivate me to work hard
+    - i need strength to continue
+    - say something that motivates me
+    - give me words of encouragement
+    - make me feel confident
+    - inspire me to keep going
+    - push me to do better
+
+- intent: inspiration
+  examples: |
+    - inspire me
+    - i need some inspiration
+    - give me an inspiring quote
+    - i am looking for something inspiring
+    - share a thought that inspires
+    - tell me something inspirational
+    - give me an inspirational quote
+    - i want some inspiration
+    - say something inspiring
+    - share an inspiring message
+    - give me something inspiring
+    - tell me an inspiring line
+    - i need inspiration today
+    - inspire me to do better
+    - give me words that inspire
+    - tell me something uplifting
+    - share some inspiration with me
+    - give me a powerful quote
+    - say something that inspires people
+    - tell me something motivational and inspiring
+    - give me a quote to inspire my day
+
+- intent: love
+  examples: |
+    - do you have love quotes
+    - i want a love quote
+    - show me some love quotes
+    - any romantic quotes
+    - tell me something about love
+    - give me a romantic quote
+    - say something about love
+    - tell me a love quote
+    - share a romantic quote
+    - give me something romantic
+    - i need a quote about love
+    - say something sweet
+    - tell me something sweet about love
+    - give me a cute love quote
+    - share something about romance
+    - tell me something romantic
+    - give me a relationship quote
+    - say something lovely
+    - tell me a sweet message
+    - share a love message
+    - give me a heart touching love quote
+    - say something about true love
+    - tell me a romantic line
+    - give me a sweet quote
+    - i want something romantic
+
+- intent: funny
+  examples: |
+    - im literally so bored make me laugh
+    - give me your best dad joke
+    - i need a good giggle rn
+    - say something stupid and funny
+    - hit me with your best joke
+    - i dare you to make me laugh
+    - tell me a joke that doesn't suck
+    - lmk if you know any good jokes
+    - need a laugh what you got
+    - crack me up
+    - spit a funny quote
+    - what's the funniest thing you can heard
+    - give me some comedy gold
+    - tell me something hilarious
+    - say something goofy
+    - bruh tell me a joke
+    - got any dark humor for me
+
+- intent: success
+  examples: |
+    - how do people actually make it big these days
+    - need some serious boss quotes rn
+    - what's the secret sauce to winning at life
+    - feeling stuck, drop some success vibes
+    - how do i get my life together and succeed?
+    - how do i actually achieve my dreams?
+    - hit me with some harsh truth about success
+    - what do successful people do differently?
+    - need motivation to secure the bag
+    - tell me how to boss up
+    - gimme a quote about grinding and hustling
+    - how to not be a failure
+    - drop some serious knowledge on success
+    - how to win at life honestly
+    - need a reality check on achieving my goals
+    - what's the actual key to making it?
+    - quotes to read when you want to give up but can't
+    - how to finally make it happen
+    - gimme some advice on getting rich
+    - how do i crush my goals this year?
+
+- intent: goodbye
+  examples: |
+      - peace out
+      - gotta bounce
+      - im out
+      - alright i gotta head out
+      - catch ya on the flip side
+      - imma head to bed, night!
+      - brb gonna go do stuff
+      - talk soon!
+      - anyway gotta go bye
+      - cya later alligator
+      - signing off for now
+      - im done for the day, bye
+      - alright im outtie
+      - catch u later
+      - ttyl!
+      - gotta blast
+      - leaving now, byeeeee
+      - take it easy
+      - bye for now
+      - talk to ya tomorrow
