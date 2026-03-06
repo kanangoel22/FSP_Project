@@ -1,1 +1,22 @@
-rasa_env
+# Virtual Environments
+rasa_env/
+venv/
+env/
+.env
+
+# Rasa specific
+.rasa/
+models/
+results/
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
