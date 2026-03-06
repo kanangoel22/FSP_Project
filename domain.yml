@@ -35,3 +35,14 @@ responses:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+  actions:
+  - action_motivation_quote
+  - action_inspiration_quote
+  - action_funny_quote
+  - action_love_quote
+  - action_success_quote
+
+  responses:
+  utter_fallback:
+  - text: "I'm sorry, I didn't understand that. You can ask me for motivational, inspirational, love, funny, or success quotes."

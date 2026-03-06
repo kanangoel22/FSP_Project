@@ -36,3 +36,17 @@ stories:
   steps:
   - intent: goodbye
   - action: utter_goodbye
+
+  - story: greet then motivation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: motivation
+  - action: utter_motivation
+
+- story: greet then funny quote
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: funny
+  - action: utter_funny
