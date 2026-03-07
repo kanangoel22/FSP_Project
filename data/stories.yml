@@ -2,44 +2,55 @@ version: "3.1"
 
 stories:
 
-- story: greet user
+- story: greet then ask for motivation
   steps:
   - intent: greet
   - action: utter_greet
-
-- story: motivation quote
-  steps:
   - intent: motivation
-  - action: utter_motivation
+  - action: action_motivation_quote
 
-- story: inspiration quote
+- story: greet then ask for inspiration
   steps:
+  - intent: greet
+  - action: utter_greet
   - intent: inspiration
-  - action: utter_inspiration
+  - action: action_inspiration_quote
 
-- story: love quote
+- story: greet then ask for funny quote
   steps:
-  - intent: love
-  - action: utter_love
-
-- story: funny quote
-  steps:
+  - intent: greet
+  - action: utter_greet
   - intent: funny
-  - action: utter_funny
+  - action: action_funny_quote
 
-- story: success quote
+- story: greet then ask for love quote
   steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: love
+  - action: action_love_quote
+
+- story: greet then ask for success quote
+  steps:
+  - intent: greet
+  - action: utter_greet
   - intent: success
-  - action: utter_success
+  - action: action_success_quote
 
-- story: goodbye user
+- story: greet then ask motivation then goodbye
   steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: motivation
+  - action: action_motivation_quote
   - intent: goodbye
   - action: utter_goodbye
 
-- story: greet then motivation
+- story: ask two different quote types
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: motivation
-  - action: utter_motivation
+  - intent: funny
+  - action: action_funny_quote
+  - intent: inspiration
+  - action: action_inspiration_quote

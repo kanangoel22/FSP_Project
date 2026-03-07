@@ -22,12 +22,16 @@ nlu:
     - hello friend
     - nice to meet you
     - glad to see you
-    - hey how’s it going
-    - hi how’s your day
+    - hey how's it going
+    - hi how's your day
     - hello again
     - hey good to see you
     - hi there chatbot
     - hello chatbot
+    - yo
+    - sup
+    - hiya
+    - howdy
 
 - intent: motivation
   examples: |
@@ -56,6 +60,9 @@ nlu:
     - make me feel confident
     - inspire me to keep going
     - push me to do better
+    - i need a motivational quote
+    - motivation please
+    - can you motivate me
 
 - intent: inspiration
   examples: |
@@ -80,6 +87,9 @@ nlu:
     - say something that inspires people
     - tell me something motivational and inspiring
     - give me a quote to inspire my day
+    - inspiration please
+    - i want an inspirational thought
+    - share an inspirational message
 
 - intent: love
   examples: |
@@ -108,9 +118,20 @@ nlu:
     - tell me a romantic line
     - give me a sweet quote
     - i want something romantic
+    - love quote please
+    - share a love quote with me
 
 - intent: funny
   examples: |
+    - tell me a joke
+    - make me laugh
+    - give me a funny quote
+    - say something funny
+    - i need a laugh
+    - tell me something hilarious
+    - crack a joke
+    - do you know any jokes
+    - funny quote please
     - im literally so bored make me laugh
     - give me your best dad joke
     - i need a good giggle rn
@@ -124,13 +145,20 @@ nlu:
     - spit a funny quote
     - what's the funniest thing you can heard
     - give me some comedy gold
-    - tell me something hilarious
     - say something goofy
     - bruh tell me a joke
     - got any dark humor for me
+    - something funny
+    - i want a funny quote
+    - humor me
 
 - intent: success
   examples: |
+    - give me a success quote
+    - tell me about success
+    - how to be successful
+    - share a success quote
+    - success quote please
     - how do people actually make it big these days
     - need some serious boss quotes rn
     - what's the secret sauce to winning at life
@@ -151,26 +179,66 @@ nlu:
     - how to finally make it happen
     - gimme some advice on getting rich
     - how do i crush my goals this year?
+    - i want a success quote
 
 - intent: goodbye
   examples: |
-      - peace out
-      - gotta bounce
-      - im out
-      - alright i gotta head out
-      - catch ya on the flip side
-      - imma head to bed, night!
-      - brb gonna go do stuff
-      - talk soon!
-      - anyway gotta go bye
-      - cya later alligator
-      - signing off for now
-      - im done for the day, bye
-      - alright im outtie
-      - catch u later
-      - ttyl!
-      - gotta blast
-      - leaving now, byeeeee
-      - take it easy
-      - bye for now
-      - talk to ya tomorrow
+    - bye
+    - goodbye
+    - see you later
+    - see ya
+    - take care
+    - peace out
+    - gotta bounce
+    - im out
+    - alright i gotta head out
+    - catch ya on the flip side
+    - imma head to bed, night!
+    - brb gonna go do stuff
+    - talk soon!
+    - anyway gotta go bye
+    - cya later alligator
+    - signing off for now
+    - im done for the day, bye
+    - alright im outtie
+    - catch u later
+    - ttyl!
+    - gotta blast
+    - leaving now, byeeeee
+    - bye for now
+    - talk to ya tomorrow
+    - good night
+    - later
+
+- intent: out_of_scope
+  examples: |
+    - what time is it
+    - what's the weather like
+    - who are you
+    - what can you do
+    - tell me a story
+    - play music
+    - order food
+    - who is the president
+    - what is 2 + 2
+    - translate hello to french
+    - joy
+    - pleasure
+    - happiness
+    - random word
+    - asdfgh
+    - blah blah
+    - nothing
+    - something else
+    - i don't know
+    - hmm
+    - okay
+    - lol
+    - haha
+    - yes
+    - no
+    - maybe
+    - what
+    - why
+    - how
+    - cool

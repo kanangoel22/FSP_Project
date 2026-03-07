@@ -8,41 +8,31 @@ intents:
   - funny
   - success
   - goodbye
+  - out_of_scope
 
 responses:
 
   utter_greet:
-  - text: "Hello! I can share motivational, inspirational, love, funny, or success quotes."
-
-  utter_motivation:
-  - text: "Believe you can and you're halfway there."
-
-  utter_inspiration:
-  - text: "The best way to predict the future is to create it."
-
-  utter_love:
-  - text: "Love all, trust a few, do wrong to none."
-
-  utter_funny:
-  - text: "I'm not lazy, I'm just on energy-saving mode."
-
-  utter_success:
-  - text: "Success usually comes to those who are too busy to be looking for it."
+  - text: "Hey there!  I'm your Quote Bot. Ask me for motivational, inspirational, love, funny, or success quotes!"
+  - text: "Hello!  Want some quotes? Just tell me — motivation, inspiration, love, funny, or success!"
+  - text: "Hi! I've got quotes for every mood. Try asking for a motivational or funny quote!"
 
   utter_goodbye:
-  - text: "Goodbye! Come back anytime if you want more quotes."
+  - text: "Goodbye!  Come back anytime you need a good quote!"
+  - text: "See ya later! Hope the quotes brightened your day! "
+  - text: "Bye! Remember — you're awesome. Come back for more quotes anytime!"
 
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  utter_fallback:
+  - text: "Hmm, I didn't quite get that  Try asking me for a motivational, inspirational, love, funny, or success quote!"
+  - text: "Sorry, I'm not sure what you mean. I can share motivational, inspirational, love, funny, or success quotes — just ask!"
 
-  actions:
+actions:
   - action_motivation_quote
   - action_inspiration_quote
   - action_funny_quote
   - action_love_quote
   - action_success_quote
 
-  responses:
-  utter_fallback:
-  - text: "I'm sorry, I didn't understand that. You can ask me for motivational, inspirational, love, funny, or success quotes."
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
