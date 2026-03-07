@@ -1,3 +1,40 @@
 version: "3.1"
 
 rules:
+  # Basic Greeting and Goodbye
+  - rule: Say hello when user greets
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Say goodbye when user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # Fetching Custom Quote Actions
+  # These link your intents directly to your custom Python logic in actions.py
+  - rule: Fetch motivation quote
+    steps:
+      - intent: motivation
+      - action: action_fetch_motivation
+
+  - rule: Fetch inspiration quote
+    steps:
+      - intent: inspiration
+      - action: action_fetch_inspiration
+
+  - rule: Fetch love quote
+    steps:
+      - intent: love
+      - action: action_fetch_love
+
+  - rule: Fetch funny quote
+    steps:
+      - intent: funny
+      - action: action_fetch_funny
+
+  - rule: Fetch success quote
+    steps:
+      - intent: success
+      - action: action_fetch_success
