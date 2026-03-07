@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-wrapper">
+    <header>
+        <h3>AI Quote Assistant</h3>
+        <span class="status-dot"></span> Online
+    </header>
+    <div id="chatbox"></div>
+    <div id="typing-indicator" class="hidden">Bot is thinking...</div>
+    <div id="input-area">
+        <input type="text" id="userMsg" placeholder="Ask for a quote..." autocomplete="off">
+        <button id="sendBtn">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+        </button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
