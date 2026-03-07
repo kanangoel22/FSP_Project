@@ -36,6 +36,26 @@ rules:
       - intent: success
       - action: action_success_quote
 
+  - rule: Respond to thank you
+    steps:
+      - intent: thank_you
+      - action: utter_thank_you
+
+  - rule: Respond to another quote request
+    steps:
+      - intent: another_quote
+      - action: utter_another_quote
+
+  - rule: Respond to how are you
+    steps:
+      - intent: how_are_you
+      - action: utter_how_are_you
+
+  - rule: Respond to bot info request
+    steps:
+      - intent: bot_info
+      - action: utter_bot_info
+
   - rule: Handle out of scope messages
     steps:
       - intent: out_of_scope

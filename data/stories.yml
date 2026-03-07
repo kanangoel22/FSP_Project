@@ -37,16 +37,60 @@ stories:
   - intent: success
   - action: action_success_quote
 
-- story: greet then ask motivation then goodbye
+- story: greet then motivation then thank you
   steps:
   - intent: greet
   - action: utter_greet
   - intent: motivation
   - action: action_motivation_quote
+  - intent: thank_you
+  - action: utter_thank_you
+
+- story: get quote then ask for another then get funny
+  steps:
+  - intent: motivation
+  - action: action_motivation_quote
+  - intent: another_quote
+  - action: utter_another_quote
+  - intent: funny
+  - action: action_funny_quote
+
+- story: greet then how are you then quote
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_are_you
+  - action: utter_how_are_you
+  - intent: motivation
+  - action: action_motivation_quote
+
+- story: greet then bot info then quote
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_info
+  - action: utter_bot_info
+  - intent: funny
+  - action: action_funny_quote
+
+- story: full conversation flow
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: motivation
+  - action: action_motivation_quote
+  - intent: thank_you
+  - action: utter_thank_you
+  - intent: funny
+  - action: action_funny_quote
+  - intent: another_quote
+  - action: utter_another_quote
+  - intent: love
+  - action: action_love_quote
   - intent: goodbye
   - action: utter_goodbye
 
-- story: ask two different quote types
+- story: ask two different quote types then bye
   steps:
   - intent: greet
   - action: utter_greet
@@ -54,3 +98,5 @@ stories:
   - action: action_funny_quote
   - intent: inspiration
   - action: action_inspiration_quote
+  - intent: goodbye
+  - action: utter_goodbye

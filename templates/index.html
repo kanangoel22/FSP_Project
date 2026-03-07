@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Quote Bot - Get Inspired</title>
+    <meta name="description" content="An AI-powered chatbot that delivers motivational, inspirational, love, funny, and success quotes on demand.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <!-- Header -->
+    <header id="chat-header">
+        <div class="header-left">
+            <div class="bot-avatar">Q</div>
+            <div class="header-info">
+                <h1>Quote Bot</h1>
+                <span class="status"><span class="status-dot"></span> Online</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <button id="clearBtn" title="Clear chat" aria-label="Clear chat history">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="3 6 5 6 21 6"></polyline>
+                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Chat Messages -->
+    <div id="chatbox">
+        <div class="welcome-message">
+            <div class="welcome-icon">&#10024;</div>
+            <h2>Welcome to Quote Bot!</h2>
+            <p>I can share quotes to brighten your day. Try one of these:</p>
+            <div class="quick-actions">
+                <button class="chip" data-msg="Give me a motivational quote">Motivation</button>
+                <button class="chip" data-msg="Inspire me">Inspiration</button>
+                <button class="chip" data-msg="Tell me a joke">Funny</button>
+                <button class="chip" data-msg="Give me a love quote">Love</button>
+                <button class="chip" data-msg="How to be successful">Success</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Typing Indicator -->
+    <div id="typing-indicator" class="hidden">
+        <div class="typing-dots">
+            <span></span><span></span><span></span>
+        </div>
+        <span class="typing-text">Bot is thinking...</span>
+    </div>
+
+    <!-- Input Area -->
+    <div id="input-area">
+        <input type="text" id="userMsg" placeholder="Ask for a quote..." autocomplete="off" aria-label="Type your message">
+        <button id="sendBtn" aria-label="Send message">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

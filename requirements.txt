@@ -8,3 +8,6 @@ python-dotenv
 
 # For asynchronous operations (often needed for web integration)
 aiohttp
+
+# Web server for deployment
+flask

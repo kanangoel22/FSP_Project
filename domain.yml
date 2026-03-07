@@ -8,23 +8,48 @@ intents:
   - funny
   - success
   - goodbye
+  - thank_you
+  - another_quote
+  - how_are_you
+  - bot_info
   - out_of_scope
 
 responses:
 
   utter_greet:
-  - text: "Hey there!  I'm your Quote Bot. Ask me for motivational, inspirational, love, funny, or success quotes!"
-  - text: "Hello!  Want some quotes? Just tell me — motivation, inspiration, love, funny, or success!"
+  - text: "Hey there! I'm your Quote Bot. Ask me for motivational, inspirational, love, funny, or success quotes!"
+  - text: "Hello! Want some quotes? Just tell me -- motivation, inspiration, love, funny, or success!"
   - text: "Hi! I've got quotes for every mood. Try asking for a motivational or funny quote!"
 
   utter_goodbye:
-  - text: "Goodbye!  Come back anytime you need a good quote!"
-  - text: "See ya later! Hope the quotes brightened your day! "
-  - text: "Bye! Remember — you're awesome. Come back for more quotes anytime!"
+  - text: "Goodbye! Come back anytime you need a good quote!"
+  - text: "See ya later! Hope the quotes brightened your day!"
+  - text: "Bye! Remember -- you're awesome. Come back for more quotes anytime!"
+
+  utter_thank_you:
+  - text: "You're welcome! Want another quote? Just ask for motivation, inspiration, love, funny, or success!"
+  - text: "Glad you liked it! Feel free to ask for more anytime."
+  - text: "No problem! I've got plenty more where that came from. What kind of quote do you want next?"
+  - text: "Anytime! Want to hear another one? Just let me know the category."
+
+  utter_another_quote:
+  - text: "Sure! What type of quote would you like? Motivation, inspiration, love, funny, or success?"
+  - text: "Of course! Just tell me the category -- motivation, inspiration, love, funny, or success."
+  - text: "I'd love to! Which kind? Motivational, inspirational, love, funny, or success?"
+
+  utter_how_are_you:
+  - text: "I'm doing great, thanks for asking! Ready to share some awesome quotes with you. What kind would you like?"
+  - text: "I'm wonderful! Always happy to chat. Want a motivational, funny, or love quote?"
+  - text: "Feeling fantastic! I've been reading quotes all day. Want to hear one?"
+
+  utter_bot_info:
+  - text: "I'm Quote Bot! I share motivational, inspirational, love, funny, and success quotes. Just tell me what you're in the mood for!"
+  - text: "I'm a chatbot that serves up quotes to brighten your day. Try saying 'motivate me' or 'tell me a joke'!"
+  - text: "I'm here to share quotes with you! I know motivational, inspirational, love, funny, and success quotes. What sounds good?"
 
   utter_fallback:
-  - text: "Hmm, I didn't quite get that  Try asking me for a motivational, inspirational, love, funny, or success quote!"
-  - text: "Sorry, I'm not sure what you mean. I can share motivational, inspirational, love, funny, or success quotes — just ask!"
+  - text: "Hmm, I didn't quite get that. Try asking me for a motivational, inspirational, love, funny, or success quote!"
+  - text: "Sorry, I'm not sure what you mean. I can share motivational, inspirational, love, funny, or success quotes -- just ask!"
 
 actions:
   - action_motivation_quote

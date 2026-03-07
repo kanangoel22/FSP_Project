@@ -15,15 +15,11 @@ nlu:
     - good evening
     - good afternoon
     - what's up
-    - hey how are you
-    - hello how are you
     - hi bot
     - hey bot
     - hello friend
     - nice to meet you
     - glad to see you
-    - hey how's it going
-    - hi how's your day
     - hello again
     - hey good to see you
     - hi there chatbot
@@ -46,7 +42,6 @@ nlu:
     - give me some positive words
     - i want to feel motivated
     - tell me something motivating
-    - say something inspiring to me
     - i need energy to keep going
     - i feel like giving up
     - help me stay positive
@@ -58,7 +53,6 @@ nlu:
     - say something that motivates me
     - give me words of encouragement
     - make me feel confident
-    - inspire me to keep going
     - push me to do better
     - i need a motivational quote
     - motivation please
@@ -85,10 +79,8 @@ nlu:
     - share some inspiration with me
     - give me a powerful quote
     - say something that inspires people
-    - tell me something motivational and inspiring
     - give me a quote to inspire my day
     - inspiration please
-    - i want an inspirational thought
     - share an inspirational message
 
 - intent: love
@@ -139,15 +131,13 @@ nlu:
     - hit me with your best joke
     - i dare you to make me laugh
     - tell me a joke that doesn't suck
-    - lmk if you know any good jokes
     - need a laugh what you got
     - crack me up
     - spit a funny quote
-    - what's the funniest thing you can heard
     - give me some comedy gold
+    - tell me something hilarious
     - say something goofy
     - bruh tell me a joke
-    - got any dark humor for me
     - something funny
     - i want a funny quote
     - humor me
@@ -163,22 +153,18 @@ nlu:
     - need some serious boss quotes rn
     - what's the secret sauce to winning at life
     - feeling stuck, drop some success vibes
-    - how do i get my life together and succeed?
-    - how do i actually achieve my dreams?
+    - how do i get my life together and succeed
+    - how do i actually achieve my dreams
     - hit me with some harsh truth about success
-    - what do successful people do differently?
+    - what do successful people do differently
     - need motivation to secure the bag
     - tell me how to boss up
     - gimme a quote about grinding and hustling
-    - how to not be a failure
     - drop some serious knowledge on success
     - how to win at life honestly
     - need a reality check on achieving my goals
-    - what's the actual key to making it?
-    - quotes to read when you want to give up but can't
     - how to finally make it happen
-    - gimme some advice on getting rich
-    - how do i crush my goals this year?
+    - how do i crush my goals this year
     - i want a success quote
 
 - intent: goodbye
@@ -193,29 +179,104 @@ nlu:
     - im out
     - alright i gotta head out
     - catch ya on the flip side
-    - imma head to bed, night!
-    - brb gonna go do stuff
-    - talk soon!
-    - anyway gotta go bye
+    - talk soon
     - cya later alligator
     - signing off for now
-    - im done for the day, bye
-    - alright im outtie
+    - im done for the day bye
     - catch u later
-    - ttyl!
+    - ttyl
     - gotta blast
-    - leaving now, byeeeee
     - bye for now
     - talk to ya tomorrow
     - good night
     - later
 
+- intent: thank_you
+  examples: |
+    - thanks
+    - thank you
+    - thanks a lot
+    - thank you so much
+    - that was great thanks
+    - thanks for the quote
+    - thanks bot
+    - appreciate it
+    - that was helpful
+    - thanks that made my day
+    - awesome thanks
+    - i loved that thank you
+    - great quote thanks
+    - thanks for sharing
+    - much appreciated
+    - thx
+    - ty
+    - thanks mate
+    - thank you that was nice
+    - really appreciate that
+
+- intent: another_quote
+  examples: |
+    - give me another one
+    - one more
+    - another one
+    - another quote please
+    - give me more
+    - i want another
+    - more quotes
+    - can i have another
+    - hit me with another
+    - keep them coming
+    - more please
+    - give me one more
+    - i want more quotes
+    - again
+    - next quote
+    - another
+    - show me more
+    - got any more
+    - any more quotes
+    - keep going
+
+- intent: how_are_you
+  examples: |
+    - how are you
+    - how are you doing
+    - how's it going
+    - how do you feel
+    - are you doing okay
+    - how is your day
+    - you doing good
+    - how are things
+    - what's going on with you
+    - you alright
+    - how have you been
+    - how you doing today
+    - everything good with you
+    - are you well
+    - hows life
+
+- intent: bot_info
+  examples: |
+    - what can you do
+    - what do you do
+    - who are you
+    - what are you
+    - tell me about yourself
+    - what is your purpose
+    - what are your abilities
+    - help
+    - what kind of quotes do you have
+    - what types of quotes can you share
+    - what categories do you have
+    - how does this work
+    - what should i ask you
+    - what can i ask
+    - show me what you can do
+
 - intent: out_of_scope
   examples: |
     - what time is it
     - what's the weather like
-    - who are you
-    - what can you do
     - tell me a story
     - play music
     - order food
@@ -232,7 +293,6 @@ nlu:
     - something else
     - i don't know
     - hmm
-    - okay
     - lol
     - haha
     - yes
@@ -242,3 +302,6 @@ nlu:
     - why
     - how
     - cool
+    - ok
+    - sure
+    - nice
